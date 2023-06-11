@@ -36,7 +36,7 @@ describe('MD2 spec', () => {
       appointmentSummaryPage.visitDate.should('contain', '30');
       appointmentSummaryPage.comment.should('have.text', 'CURA Healthcare Service');
     });
-    it('Make an Appointment - case', () => {
+    it('Check appointment history - case', () => {
       //Click “Make Appointment”
       basePage.makeAppointmentButton.click();
       //Set demo account username and password
